@@ -1,0 +1,93 @@
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.calculator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    animation: fadein 2s;
+}
+
+.container {
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 0
+}
+
+.screen {
+    height: 30%;
+    width: 100%;
+    background-color: rgb(49, 47, 47);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.input {
+    height: 70%;
+    width: 100%;
+    padding: 0px 30px;
+    font-size: 70px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.keypad {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    background-color: grey;
+}
+
+.keypad div:hover {
+    cursor: pointer;
+}
+
+.keypad-number {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.key-number {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.333%;
+    height: 25%;
+    background-color: lightgray;
+    border: 1px solid rgb(190, 183, 183);
+}
+
+.key-operation {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    background-color: darkgray;
+    border: 1px solid rgb(148, 147, 147);
+}
+
+.keypad-operation {
+    width: 20%
+}
+
+.display {
+    color: white;
+    padding-left: 3%;
+}

@@ -1,0 +1,61 @@
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.home {
+    display: flex;
+    animation: fadein 1s;
+    margin-top:10%;
+}
+
+div[class*="home-"] {
+    width: 50%;
+}
+
+.home-left {
+    padding-right: 10%;
+}
+
+.home-right {
+    padding-left: 10%;
+}
+
+div[class*="description-"] {
+    margin-bottom: 35px;
+}
+
+.description-1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.description-2 {
+    font-size: 30px;
+    color: rgb(95, 211, 95);
+}
+
+.description-3 {
+    color:rgb(189, 185, 185);
+    text-align: justify;
+    line-height: 25px;
+}
+
+.description-4 {
+    display:flex;
+    gap:7%;
+}
+
+.home-left img {
+    width:200px;
+    height:80px;
+}
+
+.home-left img:hover {
+    cursor: pointer;
+}
+
+.home-right img {
+    width: 100%;
+    border-radius: 100%;
+}
