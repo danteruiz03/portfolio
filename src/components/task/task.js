@@ -6,7 +6,7 @@ import { change } from "../../actions";
 import { getStorage, setStorage } from './modules/storage';
 
 import Search from './search/search';
-import Delete from '../../assets/task/Delete.png'
+import Delete from '../../assets/task/Delete.png';
 import Button from 'react-bootstrap/Button';
 
 import './task.css'
